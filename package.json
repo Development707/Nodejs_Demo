@@ -1,27 +1,31 @@
 {
-  "name": "training-nodejs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Development707/Nodejs_Demo.git"
-  },
-  "keywords": [
-    "demo",
-    "development",
-    "nodejs"
-  ],
-  "author": "Development",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Development707/Nodejs_Demo/issues"
-  },
-  "homepage": "https://github.com/Development707/Nodejs_Demo#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+    "name": "training-nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --inspect index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Development707/Nodejs_Demo.git"
+    },
+    "keywords": [
+        "demo",
+        "development",
+        "nodejs"
+    ],
+    "author": "Development",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Development707/Nodejs_Demo/issues"
+    },
+    "homepage": "https://github.com/Development707/Nodejs_Demo#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    }
 }
